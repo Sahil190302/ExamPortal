@@ -1,0 +1,42 @@
+name: exam_portal
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path: "assets/aptitude_icon.png"
+
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/aptitude_icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/challenge_test.json
+    - assets/questions.json
+    - assets/aptitude_icon.png
