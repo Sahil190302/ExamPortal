@@ -102,7 +102,7 @@ class _DashboardScreenState
                     children: [
 
                       const Text(
-                        "Welcome Back",
+                        "Welcome to HCA",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.grey,
